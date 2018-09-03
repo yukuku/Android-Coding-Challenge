@@ -1,0 +1,14 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/caches
+.DS_Store
+/build
+
+# generated files
+/app/src/main/assets/mediadata
+
+# module
+*.iml
+.idea/assetWizardSettings.xml
