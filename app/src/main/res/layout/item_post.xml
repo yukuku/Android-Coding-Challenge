@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_margin="8dp"
+	app:cardCornerRadius="8dp">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<ImageView
+			android:id="@+id/imgBanner"
+			android:layout_width="match_parent"
+			android:layout_height="140dp"
+			android:contentDescription="@string/desc_banner" />
+
+		<TextView
+			android:id="@+id/tTitle"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="16dp"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="12dp"
+			android:ellipsize="end"
+			android:maxLines="2"
+			android:textColor="#262629"
+			android:textSize="16sp"
+			app:fontFamily="sans-serif-medium"
+			tools:text="Congrats! You are featured on Home page as a recommended seller!" />
+
+		<TextView
+			android:id="@+id/tDescription"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="16dp"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="4dp"
+			android:ellipsize="end"
+			android:maxLines="2"
+			android:textColor="#262629"
+			android:textSize="14sp"
+			tools:text="Hi rita12399, thank you for being awesome on Carousell! We want more Carousellers see you and your listings and hope you can keep up the good listings and bring good experience to fellow Carousellers." />
+
+		<TextView
+			android:id="@+id/tTimeCreated"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="12dp"
+			android:layout_marginEnd="16dp"
+			android:layout_marginStart="16dp"
+			android:layout_marginTop="8dp"
+			android:textColor="#8F939C"
+			android:textSize="12sp"
+			tools:text="5 hours ago" />
+
+	</LinearLayout>
+</android.support.v7.widget.CardView>
